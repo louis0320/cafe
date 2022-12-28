@@ -1,0 +1,28 @@
+@charset "utf-8";
+#wrap {
+    width: 52%;
+    margin: 0 auto;
+/*     border: 1px solid #ccc;
+    border-radius: 10px; */
+    padding: 32px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+#wrap h1 {
+    margin-bottom: 32px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+header>div {
+    margin-bottom: 16px;
+}
+
+#wrap {
+   position: relative;
+}
+#wrap>aside {
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 1;
+}

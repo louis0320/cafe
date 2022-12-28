@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body { 
+	background:#fafafa; 
+}
+#wrap {
+	width:50%;
+	margin: 0 auto;
+}
+form { 
+	max-width:100%; 
+	margin:50px 50px; 
+}
+
+.feedback-input {
+	color: #000;
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 22px;
+	border:2px solid #689f38;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
+}
+
+.feedback-input:focus { border:2px solid #ffea00; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#689f38;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color: #000;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { 
+	background:#003d00; 
+}
+
+/*======getBoardList========*/
+legend {
+	text-align:center;
+	margin-bottom:50px;
+}
+th,td {
+	text-align: left;
+	padding:10px 20px 10px 10px;
+}
+table {
+	border-top: 4px solid #000;
+	border-bottom : 2px solid gray;
+}
+
+/*getBoard*/
+input[type=button]{
+	text-align:center;
+	width:100px;
+	background:#000;
+	color:#fff;
+}
+/*======addBoard========*/
+.add_css input{
+	width:60px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

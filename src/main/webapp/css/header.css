@@ -1,0 +1,107 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+}
+#menu {
+	padding-bottom:50px;
+}
+.first {
+    width: 1280px;
+    margin-top: 40px;
+}
+.logo a {
+    width: 100px;
+    font-size: 1.8rem;
+    text-align: left;
+    color:#7D5A50;
+    font-weight:700;
+    /* 플롯설정 */
+    float: left;
+}
+.first nav ul{
+    /* 플롯설정 */
+    float: right;
+    padding-top: 15px;
+}
+.first nav ul li {
+    color: #AA8B56;
+    font-size: 12px;
+    font-weight: 600;
+    width: auto;
+    /* 플롯설정 */
+    float: left;
+    margin-left: 20px;    
+}
+.first nav ul li:hover {
+    color: #6C4AB6;
+    cursor: pointer;
+}
+.first nav ul li:last-child {
+    border-right: none;
+}
+
+/* 1depth 메뉴 */
+nav .second{
+    width: 1280px;
+    display: table;
+    margin-top: 30px;
+}
+nav .second li {
+    width: 200px;
+    display: table-cell;
+    /* 포지션 위치기준값 */
+    position: relative;
+}
+nav .second li:hover{
+    font-weight: 600;
+    color: #6C4AB6;
+}
+
+/* 2depth 메뉴 */
+.second .submenu {
+    width: 100%;
+    /* 포지션 */
+    position: absolute;
+    z-index: 1000;
+    /* 로딩시 가리기 */
+    display: none;
+}
+.second .submenu p {
+    padding: 20px 0 0;
+}
+.second .submenu p:hover {
+    color: #DBDFFD;
+    font-weight:500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

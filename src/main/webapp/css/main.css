@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* 추가 css */
+body {
+    font-family: 'Droid Sans', sans-serif;
+    letter-spacing: -1px;
+}
+.slide_area {
+	/* 포지션 */
+	position: relative;
+	top:80px;
+}
+
+/* 이미지 슬라이드 영역 */
+.slideshow_container {
+    max-width: 1280px;
+    margin: 0 auto;
+    /* 위치기준값 */
+    position: relative;
+}
+.slideshow_container img {
+    width: 100%;
+}
+
+.slideshow_container .slide .number_text {
+    width: 100%;
+    color: #6a5050;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+     /* 포지션설정 */
+     position: absolute;
+     bottom: -15px;
+}
+
+
+/* DOT DOT DOT  */
+.circle {
+    margin: 8px 0;
+    text-align: center;
+}
+.circle .dot {
+    width: 14px;
+    height: 14px;
+    margin: 0 24;
+    background-color: #ccc;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.6s;
+}
+.circle .dot:hover {
+    background-color: #333;
+}
+
+
