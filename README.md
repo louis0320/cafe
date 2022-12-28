@@ -29,4 +29,4 @@
 <iframe width="795" height="427" src="https://www.youtube.com/embed/1lGEGVXFu28" title="cafe_검색" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 회원탈퇴
-<iframe width="795" height="427" src="https://www.youtube.com/embed/CktpnKD8cjs" title="cafe_회원탈퇴" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/CktpnKD8cjs
